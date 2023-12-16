@@ -1,0 +1,11 @@
+/* simple example */
+body {
+    background-color: pink;
+}
+
+/* When width is high than 480px in this case they will applied this style */
+@media screen and (min-width:600px) {
+    body {
+        background-color: red;
+    }
+}
