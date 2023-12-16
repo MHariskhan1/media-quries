@@ -1,11 +1,52 @@
 /* simple example */
-body {
+/* body {
     background-color: pink;
-}
+} */
 
 /* When width is high than 480px in this case they will applied this style */
-@media screen and (min-width:600px) {
+/* @media screen and (min-width:600px) {
     body {
         background-color: red;
     }
+} */
+
+/* Floting menu */
+
+.wrapper {
+overflow: auto;
 }
+#main{
+    margin-left: 4px;
+}
+#leftsidebar {
+    float: none;
+    width: auto;
+}
+#menulist {
+    margin: 0;
+    padding: 0;
+}
+
+#menulist {
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+    
+}
+@media (min-width:480px) {
+    #leftsidebar {
+        width: 200px;
+        float: left;
+    }
+    #main{
+        margin-left: 216;
+    }
+    
+}
+
+
+
+
